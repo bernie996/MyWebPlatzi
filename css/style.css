@@ -16,7 +16,6 @@
     border-style: double;
     border-color: #000;
     border-width: 2px;
-    border-radius: 0px 0px 20px 20px;
 }
 .container__header{
     background-color: #000;
@@ -53,9 +52,10 @@
 }
 
 .container__footer{
+    background-color: rgb(216, 216, 216);
     display: flex;
     justify-content: center;
-    padding: 5%;
+    padding: 1%;
 }
 .container__footer a{
     text-decoration: none;
