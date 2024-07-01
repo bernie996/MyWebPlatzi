@@ -1,3 +1,7 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 
 .main{
     display: flex;
@@ -33,25 +37,65 @@
 
 .container__main{
     display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.container__main__lateral{
+    display: flex;
     flex-direction: column;
+    width: 30%;
     padding: 2.5%;
 }
 
-.container__main__head{
+.container__main__lateral__ele{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 1px black;
+    padding: 1rem;
+}
+
+.container__main__lateral__ele h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.container__main__lateral__ele ul{
+    list-style-type: disc;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+.container__main__lateral__ele a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.container__main__right{
+    display: flex;
+    flex-direction: column;
+    padding: 2.5%;
+    width: 70%;
+}
+
+.container__main__right__head{
     display: flex;
     flex-direction: column;
 }
-.container__main__head h2{
+.container__main__right__head h2{
     font-size: 1.8rem;
     color: #000;
     text-align: center;
     margin: 1%;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px #1d1d1d;
 }
-.container__main__head hr{
+.container__main__right__head hr{
     width: 100%;
 }
 
-.container__main--paragraph{
+.container__main__right--paragraph{
     font-size: 1.2rem;
 }
 
